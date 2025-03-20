@@ -4,12 +4,17 @@
  */
 package Main;
 
+import Persona.Persona;
+
 /**
  *
  * @author aycardie
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+
+   Persona persona = new Persona(123,"Eliud",18);
+        System.out.println(persona);
+
     }
 }
