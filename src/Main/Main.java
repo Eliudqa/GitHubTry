@@ -4,6 +4,7 @@
  */
 package Main;
 
+import Gato.Gato;
 import Persona.Persona;
 
 /**
@@ -15,6 +16,9 @@ public class Main {
 
    Persona persona = new Persona(123,"Eliud",18);
         System.out.println(persona);
+        
+   Gato gato = new Gato("Fransisca",2,persona);
+        System.out.println(gato);
 
     }
 }
