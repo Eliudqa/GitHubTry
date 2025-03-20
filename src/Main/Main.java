@@ -4,6 +4,7 @@
  */
 package Main;
 
+import Perro.Perro;
 import Persona.Persona;
 
 /**
@@ -16,5 +17,7 @@ public class Main {
    Persona persona = new Persona(123,"Eliud",18);
         System.out.println(persona);
 
+   Perro perro = new Perro("Chocolisto",5,persona,"Bulldog");
+        System.out.println(perro);
     }
 }
